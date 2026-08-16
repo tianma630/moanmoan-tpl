@@ -1,0 +1,101 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "吐了个槽",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/create-post/index",
+      "style": {
+        "navigationBarTitleText": "开吐",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/treehole/index",
+      "style": {
+        "navigationBarTitleText": "树洞信箱",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/treehole/chat",
+      "style": {
+        "navigationBarTitleText": "树洞对话",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/messages/index",
+      "style": {
+        "navigationBarTitleText": "消息",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/profile/my-post",
+      "style": {
+        "navigationBarTitleText": "我的吐槽",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/post-detail/index",
+      "style": {
+        "navigationBarTitleText": "吐槽详情",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "吐了个槽",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FBFBFA",
+    "app-plus": {
+      "background": "#FBFBFA"
+    }
+  },
+  "tabBar": {
+    "color": "#A8A6A1",
+    "selectedColor": "#111111",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "广场",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/treehole/index",
+        "text": "树洞",
+        "iconPath": "static/tabbar/treehole.png",
+        "selectedIconPath": "static/tabbar/treehole-active.png"
+      },
+      {
+        "pagePath": "pages/messages/index",
+        "text": "消息",
+        "iconPath": "static/tabbar/message.png",
+        "selectedIconPath": "static/tabbar/message-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/profile.png",
+        "selectedIconPath": "static/tabbar/profile-active.png"
+      }
+    ]
+  }
+}
